@@ -1,0 +1,8 @@
+nav li {
+    margin: 0 10px;
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+    }
+}
