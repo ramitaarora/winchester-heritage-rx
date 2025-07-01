@@ -20,6 +20,16 @@ nav li {
     height: 250px;
 }
 
+.each-service {
+    text-align: center;
+    width: 150px;
+
+    p {
+        margin: 10px 0;
+        height: 20%;
+    }
+}
+
 footer p,
 #information p {
     margin: 0;
