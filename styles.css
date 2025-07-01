@@ -1,3 +1,5 @@
+/* General Styling */
+
 nav li {
     margin: 0 10px;
     list-style-type: none;
@@ -5,4 +7,15 @@ nav li {
     a {
         text-decoration: none;
     }
+}
+
+/* Descriptions */
+
+.description-icons {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.description-text {
+    height: 250px;
 }
