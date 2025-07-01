@@ -19,3 +19,8 @@ nav li {
 .description-text {
     height: 250px;
 }
+
+footer p,
+#information p {
+    margin: 0;
+}
