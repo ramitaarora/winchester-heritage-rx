@@ -1,6 +1,27 @@
+:root {
+    --ida-blue: #025a99;
+    --ida-blue-darker: #003d69;
+    --ida-red: #ea2024;
+}
+
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: var(--ida-blue) !important;
+}
+
+a:hover {
+    color: var(--ida-blue-darker) !important;
+}
+
+#top-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 40px;
+
+    svg:hover {
+        fill: var(--ida-red);
+    }
 }
 
 nav {
@@ -12,6 +33,15 @@ nav {
     li {
         margin: 0 10px;
         list-style-type: none;
+    }
+
+    a {
+        color: var(--ida-blue) !important;
+    }
+
+    a:hover {
+        text-decoration: underline !important;
+        color: var(--ida-blue-darker) !important;
     }
 }
 
@@ -25,15 +55,15 @@ nav {
 
     button {
         color: white;
-        background-color: blue;
+        background-color: var(--ida-blue);
         width: 120px;
         padding: 10px;
-        border: 1px solid blue;
+        border: 1px solid var(--ida-blue);
         border-radius: 10px;
     }
 
     button:hover {
-        background-color: darkblue;
+        background-color: var(--ida-blue-darker);
     }
 
     .hero-description {
@@ -80,7 +110,7 @@ nav {
 }
 
 .description-text {
-    height: 250px;
+    height: 200px;
 }
 
 .each-service {
