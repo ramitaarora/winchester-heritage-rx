@@ -104,14 +104,21 @@ nav {
     }
 }
 
-.description-icons {
-    height: 100px;
-    margin-bottom: 15px;
+#descriptions {
+    h3 {
+        margin: 10px 0;
+    }
+
+    .each-description {
+        width: 25%;
+    }
+
+    .description-text {
+        height: 250px; 
+    }
 }
 
-.description-text {
-    height: 200px;
-}
+
 
 .each-service {
     text-align: center;
@@ -165,8 +172,7 @@ iframe {
             align-items: flex-end !important;
         }
     }
-    
-    }
+}
 
 
 @media screen and (max-width: 750px) {
@@ -181,6 +187,20 @@ iframe {
 
         div {
             width: 100% !important;
+        }
+    }
+
+    #descriptions {
+        .all-descriptions {
+            flex-direction: column;
+        }
+
+        .each-description {
+            width: 80%;
+        }
+
+        .description-text {
+            height: auto;
         }
     }
 
