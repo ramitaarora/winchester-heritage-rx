@@ -19,6 +19,7 @@ a:hover {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -31,9 +32,7 @@ header {
     animation: fadeIn 1s ease-in;
 }
 
-#about {
-    
-}
+#about {}
 
 /* Main Stylings */
 
@@ -142,7 +141,7 @@ nav {
     }
 
     .description-text {
-        height: 250px; 
+        height: 250px;
     }
 }
 
@@ -203,19 +202,24 @@ iframe {
 }
 
 
-@media screen and (max-width: 750px) {
-
+@media screen and (max-width: 768px) {
     #offerings {
         display: none;
     }
 
     #about {
         flex-wrap: wrap;
+        flex-direction: column !important;
         justify-content: center !important;
         text-align: center;
 
         div {
             width: 100% !important;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
         }
     }
 
@@ -257,6 +261,16 @@ iframe {
         display: none !important;
     }
 
+    #descriptions {
+        h2 {
+            font-size: 22px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
     header {
         flex-direction: column !important;
         position: sticky !important;
@@ -266,6 +280,10 @@ iframe {
 
         ul {
             margin: 5px !important;
+        }
+
+        nav ul {
+            padding: 0;
         }
     }
 
