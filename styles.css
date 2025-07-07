@@ -80,16 +80,17 @@ nav {
     display: flex;
     justify-content: end;
 
-    button {
+    .contact-button {
         color: white;
         background-color: var(--ida-blue);
         width: 120px;
         padding: 10px;
         border: 1px solid var(--ida-blue);
         border-radius: 10px;
+        text-align: center;
     }
 
-    button:hover {
+    .contact-button:hover {
         background-color: var(--ida-blue-darker);
     }
 
